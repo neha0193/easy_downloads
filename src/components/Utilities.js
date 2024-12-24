@@ -10,6 +10,8 @@ import { FaEdge } from "react-icons/fa";
 import { FaGitAlt } from "react-icons/fa";
 import { FaSkype } from "react-icons/fa";
 import { TbBrandZoom } from "react-icons/tb";
+import { SiEpicgames } from "react-icons/si";
+import { SiPycharm } from "react-icons/si";
 
 const Utilities = () => {
     // <Card Children =  text= "Google Chrome "/>
@@ -20,6 +22,7 @@ const Utilities = () => {
                 <div className="card-items">
                     <Card Children={<SiValorant/> } text=" Valorant " url="https://valorant.secure.dyn.riotcdn.net/channels/public/x/installer/current/live.live.eu.exe" />
                     <Card Children={<FaSteam />} text=" Steam " url="https://cdn.fastly.steamstatic.com/client/installer/SteamSetup.exe" />
+                    <Card Children={<SiEpicgames />} text=" Epic " url="https://epicgames-download1.akamaized.net/Builds/UnrealEngineLauncher/Installers/Win32/EpicInstaller-17.2.0.msi?launcherfilename=EpicInstaller-17.2.0-253f8600e71f410a8910aff6590d56dd.msi" />
                     <Card Children={<FaDiscord />} text=" Discord " url="https://discord.com/api/downloads/distributions/app/installers/latest?channel=stable&platform=win&arch=x64" />
                 </div>
             </div>
@@ -38,6 +41,7 @@ const Utilities = () => {
                 <div className="card-items">
                     <Card Children={<VscVscode />} text=" Visual Studio " url="https://code.visualstudio.com/sha/download?build=stable&os=win32-x64-user" />
                     <Card Children={<FaGitAlt />} text=" Git " url="https://github.com/git-for-windows/git/releases/download/v2.47.1.windows.1/Git-2.47.1-64-bit.exe" />
+                    <Card Children={<SiPycharm />} text=" PyCharm " url="https://d29n1vtx0mqj8k.cloudfront.net/QGao7i8srx4V.exe" />
                 </div>
             </div>
             <div className="mesaaging">
